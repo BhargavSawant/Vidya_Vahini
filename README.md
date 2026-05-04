@@ -1,4 +1,4 @@
-```markdown
+
 # VidyaVahini 🚌
 
 VidyaVahini is a real-time school bus tracking application built with Jetpack Compose. It leverages Firebase and OpenStreetMap to provide live location updates, route visualization, and estimated time of arrival (ETA) for a safer and more predictable school commute.
