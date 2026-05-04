@@ -1,9 +1,9 @@
 
-# VidyaVahini 🚌
+# VidyaVahini
 
 VidyaVahini is a real-time school bus tracking application built with Jetpack Compose. It leverages Firebase and OpenStreetMap to provide live location updates, route visualization, and estimated time of arrival (ETA) for a safer and more predictable school commute.
 
-## ✨ Features
+## Features
 
 * **Live Map Tracking:** Real-time vehicle positioning using osmdroid.
 * **Intelligent Path Snapping:** Automatically draws route lines on actual roads using OSRM data (via osmbonuspack).
@@ -15,7 +15,7 @@ VidyaVahini is a real-time school bus tracking application built with Jetpack Co
 * **Firebase Integration:** Synchronized real-time data handling for bus coordinates and trip status.
 * **Modern UI:** Built entirely with Jetpack Compose and Material 3 design principles.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** Kotlin
 * **Framework:** Jetpack Compose (Material 3)
@@ -24,7 +24,7 @@ VidyaVahini is a real-time school bus tracking application built with Jetpack Co
 * **Navigation:** Compose Navigation
 * **Architecture:** MVVM (Model-View-ViewModel)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ Enable Realtime Database and set the rules to allow reading for testing:
 2. Wait for the Gradle sync to finish.
 3. Click **Run 'app'** to install on your device.
 
-## 📦 Key Dependencies
+## Key Dependencies
 
 This project uses the following major libraries:
 
@@ -78,7 +78,7 @@ This project uses the following major libraries:
 * **Compose Material 3:** 2024.09.00
 * **Navigation Compose:** 2.7.7
 
-## 📁 Project Structure
+## Project Structure
 ```text
 app/
 ├── src/main/java/.../vidyavahini/
@@ -90,17 +90,16 @@ app/
 └── build.gradle           # Dependencies and Config
 ```
 
-## ⚠️ Important Notes
+## Important Notes
 
 * **Permissions:** Ensure the app has Location and Internet permissions granted on the device.
 * **OSRM Usage:** The app uses public OSRM servers for routing. For heavy production use, it is recommended to set up a private OSRM endpoint.
 * **Security:** Never commit your `google-services.json` or `firebase-key.json` to public repositories (these are already added to `.gitignore`).
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
 3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
-```
